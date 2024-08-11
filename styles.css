@@ -1,0 +1,74 @@
+:root {
+  --dark-success-1: #2999a6;
+  --dark-success-2: #2ea6a6;
+}
+
+/** Html Elements */
+body {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+/** Classnames */
+
+.logo-div-responsive {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.bg-dark-success-1 {
+  background-color: var(--dark-success-1);
+}
+
+.bg-dark-success-2 {
+  background-color: var(--dark-success-2);
+}
+
+.border-dark-success-1 {
+  height: 2px !important;
+  background-color: var(--dark-success-1);
+}
+
+.img-carousel {
+  width: 70%;
+  height: 20%;
+}
+
+.img-card-yesi {
+  width: 100%;
+  height: 30vw;
+}
+
+.navbar-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+.tooltip-inner {
+  background-color: var(--dark-success-2);
+  border: 1px solid #dee2e6 !important;
+}
+
+.title {
+  font-size: 50px; /* Cambia el tamaño de la letra */
+  line-height: 1.5; /* Ajusta la altura de la línea para la separación de párrafos */
+  margin-bottom: 20px; /* Espacio adicional debajo del título */
+}
+
+.card-title {
+  color: black; /* Cambia el color de la letra a negro */
+}
+
+.card-text {
+  color: black; /* Cambia el color de la letra a negro */
+}
+
+.paragraph {
+  font-size: 30px; /* Cambia el tamaño de la letra */
+  color: black; /* Cambia el color de la letra a negro */
+}
+
+.bg-dark-success-1 {
+  background-color: #343a40; /* Puedes ajustar este color según sea necesario */
+}
